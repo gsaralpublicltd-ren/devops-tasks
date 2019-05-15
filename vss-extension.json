@@ -1,6 +1,6 @@
 {
     "manifestVersion": 1,
-    "id": "devopsAutomations",
+    "id": "devopsAutomation",
     "name": "DevOps Automation Tools",
     "version": "0.0.12",
     "publisher": "devopsCli",
