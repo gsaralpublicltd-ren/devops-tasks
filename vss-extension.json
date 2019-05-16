@@ -1,8 +1,8 @@
 {
     "manifestVersion": 1,
-    "id": "devopsAutomations",
+    "id": "devopsAutomation",
     "name": "DevOps Automation Tools",
-    "version": "0.0.12",
+    "version": "0.0.2",
     "publisher": "devopsCli",
     "targets": [
         {
@@ -18,7 +18,7 @@
     },
     "files": [
         {
-            "path": "buildAndReleaseTask"
+            "path": "markWorkItemAsStale"
         }
     ],
     "contributions": [
@@ -29,7 +29,7 @@
                 "ms.vss-distributed-task.tasks"
             ],
             "properties": {
-                "name": "buildAndReleaseTask"
+                "name": "markWorkItemAsStale"
             }
         }
     ]
