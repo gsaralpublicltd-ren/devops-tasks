@@ -2,13 +2,14 @@
     "manifestVersion": 1,
     "id": "devopsAutomation",
     "name": "DevOps Automation Tools",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "publisher": "devopsCli",
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
         }
-    ],    
+    ],
+    "public": true,
     "description": "Tools for running automation tasks against azure devops.",
     "categories": [
         "Azure Pipelines"
