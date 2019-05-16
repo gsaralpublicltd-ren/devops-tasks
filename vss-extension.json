@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "devopsAutomation",
     "name": "DevOps Automation Tools",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "publisher": "devopsCli",
     "targets": [
         {
@@ -14,11 +14,20 @@
         "Azure Pipelines"
     ],
     "icons": {
-        "default": "images/extension-icon.png"
+        "default": "icons/extension-icon.png"
+    },
+    "content": {
+        "details": {
+            "path": "overview.md"
+        }
     },
     "files": [
         {
             "path": "markWorkItemAsStale"
+        },
+        {
+            "path": "images",
+            "addressable": true
         }
     ],
     "contributions": [
