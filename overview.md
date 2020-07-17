@@ -11,3 +11,6 @@ Add it to the build like this:
 
 Make sure to put PAT token in a secure variable in Build:
 ![image.png](images/StaleWorkItemImage2.png)
+
+
+PR
